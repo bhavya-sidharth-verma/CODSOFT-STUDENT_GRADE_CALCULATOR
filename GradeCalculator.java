@@ -42,49 +42,52 @@ public class GradeCalculator {
         }
 
         switch (grade) {
-            case 'O' -> {
+            case 'O':
                 txt = "Outstanding";
                 System.out.println("-------------------------");
                 System.out.println(txt + "\nTotal Marks: " + total + "\nAverage Percentage: " + avg + "%" + "\nGrade: " + grade);
                 System.out.println("-------------------------");
-            }
-            case 'A' -> {
+
+                break;
+            case 'A':
                 txt = "Fabulous";
                 System.out.println("-------------------------");
                 System.out.println(txt + "\nTotal Marks: " + total + "\nAverage Percentage: " + avg + "%" + "\nGrade: " + grade);
                 System.out.println("-------------------------");
-            }
-            case 'B' -> {
+
+                break;
+            case 'B':
                 txt = "Better";
                 System.out.println("-------------------------");
                 System.out.println(txt + "\nTotal Marks: " + total + "\nAverage Percentage: " + avg + "%" + "\nGrade: " + grade);
                 System.out.println("-------------------------");
-            }
-            case 'C' -> {
+                break;
+            case 'C':
                 txt = "Can do better";
                 System.out.println("-------------------------");
                 System.out.println(txt + "\nTotal Marks: " + total + "\nAverage Percentage: " + avg + "%" + "\nGrade: " + grade);
                 System.out.println("-------------------------");
-            }
-            case 'D' -> {
+                break;
+            case 'D':
                 txt = "Need to Study hard";
                 System.out.println("-------------------------");
                 System.out.println(txt + "\nTotal Marks: " + total + "\nAverage Percentage: " + avg + "%" + "\nGrade: " + grade);
                 System.out.println("-------------------------");
-            }
-            case 'E' -> {
+                break;
+            case 'E':
                 txt = "Very poor marks ";
                 System.out.println("-------------------------");
                 System.out.println(txt + "\nTotal Marks: " + total + "\nAverage Percentage: " + avg + "%" + "\nGrade: " + grade);
                 System.out.println("-------------------------");
-            }
-            case 'F' -> {
+                break;
+            case 'F':
                 txt = "You have failed this exam";
                 System.out.println("-------------------------");
                 System.out.println(txt + "\nTotal Marks: " + total + "\nAverage Percentage: " + avg + "%" + "\nGrade: " + grade);
                 System.out.println("-------------------------");
-            }
-            default -> System.out.println(txt);
+                break;
+            default:
+                System.out.println(txt);
         }
     }
 
